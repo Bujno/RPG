@@ -6,6 +6,7 @@
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":2,},
     {"id":{"name":"tile_gitworld","path":"tilesets/tile_gitworld/tile_gitworld.yy",},"order":1,},
     {"id":{"name":"spr_player_up_attack","path":"sprites/spr_player_up_attack/spr_player_up_attack.yy",},"order":0,},
+    {"id":{"name":"spr_oldman","path":"sprites/spr_oldman/spr_oldman.yy",},"order":7,},
     {"id":{"name":"spr_gitworld","path":"sprites/spr_gitworld/spr_gitworld.yy",},"order":0,},
     {"id":{"name":"spr_player_down_attack","path":"sprites/spr_player_down_attack/spr_player_down_attack.yy",},"order":1,},
     {"id":{"name":"spr_collision_small","path":"sprites/spr_collision_small/spr_collision_small.yy",},"order":6,},

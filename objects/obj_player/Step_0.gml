@@ -3,6 +3,8 @@
 if (current == state.stand) {
 	image_speed = 0;
 	image_index = 0;
+} else {
+	image_speed = 1;	
 }
 
 // Sprawdzamy czy klawisze odpowiedzialne za ruch zostały wciśnięte 
@@ -62,18 +64,21 @@ if (current == state.stand && attack) {
 	}
 }
 
-if (timer > 0) {
-	timer--;	
-} else if (timer == 0) {
-	current = state.stand
-	if (sprite_index == spr_player_right_attack) {
-		sprite_index = spr_player_right;
-	}
-	if (sprite_index == spr_player_up_attack) {
-		sprite_index = spr_player_up;
-	}
-	if (sprite_index == spr_player_down_attack) {
-		sprite_index = spr_player_down;
+if (current == state.attack) {
+	if (timer > 0) {
+		timer--;	
+	} else if (timer == 0) {
+		current = state.stand
+		image_speed = 1;
+		if (sprite_index == spr_player_right_attack) {
+			sprite_index = spr_player_right;
+		}
+		if (sprite_index == spr_player_up_attack) {
+			sprite_index = spr_player_up;
+		}
+		if (sprite_index == spr_player_down_attack) {
+			sprite_index = spr_player_down;
+		}
 	}
 }
 
