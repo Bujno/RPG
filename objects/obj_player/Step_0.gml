@@ -49,7 +49,7 @@ if (current == state.walk || current == state.run) {
 }
 
 // Kod odpowiedzialny za animację ataku
-if (current == state.stand && attack) {
+if (current == state.stand && attack && global.sword) {
 	current = state.attack;
 	timer = 20;
 	image_speed = 1;
