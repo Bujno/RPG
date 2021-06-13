@@ -8,8 +8,13 @@ enum state{
 	attack
 }
 
+// Inicjalizacja poruszania się
 sped = 3;
 vsp = 0;
 hsp = 0;
 
+// Inicjalizacja walki (alarm)
+timer = 0
+
+// Inicjalizacja stanu
 current = state.stand;
