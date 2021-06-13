@@ -2,13 +2,18 @@
   "resources": [
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},"order":2,},
+    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":2,},
     {"id":{"name":"tile_gitworld","path":"tilesets/tile_gitworld/tile_gitworld.yy",},"order":1,},
     {"id":{"name":"spr_gitworld","path":"sprites/spr_gitworld/spr_gitworld.yy",},"order":0,},
+    {"id":{"name":"spr_collision_small","path":"sprites/spr_collision_small/spr_collision_small.yy",},"order":6,},
+    {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},"order":3,},
     {"id":{"name":"tile_world","path":"tilesets/tile_world/tile_world.yy",},"order":0,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":0,},
     {"id":{"name":"spr_titlemap","path":"sprites/spr_titlemap/spr_titlemap.yy",},"order":1,},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
+    {"id":{"name":"obj_collision_small","path":"objects/obj_collision_small/obj_collision_small.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
